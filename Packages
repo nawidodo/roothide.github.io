@@ -1602,6 +1602,28 @@ Tag: role::developer
 Author: Theos Team <theos@kabiroberai.com>
 Name: Orion (iOS 14-17)
 
+Package: dropbear
+Version: 2020.81-nawidodo1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 608
+Depends: roothide (>= 0.0.7), libiosexec1 (>= 1.3.1), libtommath1, libtomcrypt1, libcrypt2, libpam2
+Suggests: openssh-client
+Filename: ./debfiles/dropbear_2020.81-nawidodo1_iphoneos-arm64e.deb
+Size: 108684
+MD5sum: 2c1d890cce30ee16b5ea1e25d5dc89df
+SHA1: ece41fb5562ef9d67d87f6538476892daa36a84d
+SHA256: 23b8603dea81aca56940177c6368ffe811a89288da6a720f2e711eabe9e5543a
+Section: Networking
+Priority: important
+Description: lightweight SSH2 server and client - command line tools
+ dropbear is a SSH 2 server and client designed to be small enough to
+ be used in small memory environments, while still being functional and
+ secure enough for general use.
+ .
+ It implements most required features of the SSH 2 protocol, and other
+ features such as authentication agent forwarding.
+
 Package: ellekit
 Version: 1.0-18.8c90474-2
 Architecture: iphoneos-arm64e
