@@ -2559,6 +2559,24 @@ Description: Observe and reprogram running programs.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
 
+Package: re.frida.server
+Version: 17.16.4
+Architecture: iphoneos-arm64e
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 26236
+Conflicts: re.frida.server64
+Filename: ./debfiles/frida_17.16.4_iphoneos-arm64e.deb
+Size: 7779428
+MD5sum: 99a30c24843ab3c45d0cd1f324337da6
+SHA1: d8fd464a34738a34433a84a93f87a7ca024b26e4
+SHA256: 0332b2848d6bbafaf1f7be22c8a2413189bf03205e308b798fbc21e1389a106f
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
 Package: roothide.patches.filza
 Version: 0.1-10+debug
 Architecture: iphoneos-arm64e
